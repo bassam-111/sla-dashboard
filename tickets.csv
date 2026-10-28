@@ -1,0 +1,9 @@
+id,title,priority,channel,created_at,first_response_at,resolved_at,status,owner
+1,Payment gateway timeout on checkout,P1,email,2026-10-26 09:00,2026-10-26 09:20,2026-10-26 13:30,resolved,Ayesha
+2,Login page slow for some users,P2,chat,2026-10-26 10:15,2026-10-26 11:00,,open,Bassam
+3,Invoice PDF shows wrong total,P2,email,2026-10-25 14:00,2026-10-25 14:45,2026-10-26 09:00,resolved,Bassam
+4,Feature request: dark mode,P4,email,2026-10-24 08:00,2026-10-27 10:00,,open,Ayesha
+5,Account locked after password reset,P1,phone,2026-10-27 08:30,2026-10-27 08:35,,open,Bassam
+6,Weekly report email not received,P3,email,2026-10-26 16:00,2026-10-26 16:20,2026-10-27 09:00,resolved,Ayesha
+7,Dashboard chart shows stale data,P2,chat,2026-10-27 09:45,,,open,Bassam
+8,Bulk import fails on large files,P3,email,2026-10-25 11:00,2026-10-25 12:30,,open,Ayesha
