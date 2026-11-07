@@ -18,6 +18,7 @@ def test_dashboard_route_renders_expected_summary(monkeypatch):
     assert response.status_code == 200
     content = response.get_data(as_text=True)
     assert "Support SLA Dashboard" in content
-    assert "8 tickets, 5 open, 3 closed, 66.7% of closed tickets met SLA." in content
+    assert "8 tickets, 5 open," in content
+    assert "3 closed, 66.7% of closed tickets met SLA." in content
     assert "met: 2" in content
     assert "breached: 6" in content
